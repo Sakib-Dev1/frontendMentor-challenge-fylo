@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+}
+
+/**************/
+/* Reusable classes */
+/*************/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* padding: 0 3.2rem; */
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+.grid__center--v {
+  justify-content: center;
+  align-items: center;
+}
+.grid-template-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-template-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.description {
+  opacity: 0.8;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.heading--primary {
+  font-size: 4.1rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 14rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 4.8rem;
+}
+
+/********************/
+/* Helper Class */
+/********************/
+.margin__right--sm {
+  margin-right: 2.8rem !important;
+}
+.center {
+  text-align: center;
+}
+.margin__bottom--md {
+  margin-bottom: 4.8rem !important;
+}

@@ -1,0 +1,112 @@
+/**************/
+/* header*/
+/*************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0px 4.8rem;
+}
+.nav--list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.list--link {
+  display: inline-block;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/**************/
+/* Hero Section */
+/*************/
+.section--hero {
+  padding: 9.6rem;
+  background: hsl(217, 28%, 15%);
+  background-image: url("images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.hero--container {
+  max-width: 130rem;
+  padding: 0 3.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro--img {
+  display: inline-block;
+  width: 65%;
+}
+
+.hero--description {
+  font-size: 1.8rem;
+
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 0 32rem;
+  line-height: 3.12rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 8.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.cta:link,
+.cta:visited {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  animation: float 2s ease-in-out infinite;
+}
+/**************/
+/* Section Features */
+/*************/
+.section-features {
+  padding: 9.6rem 0;
+}
+.features__area {
+  width: 37.5rem;
+  text-align: center;
+}
+.icon__access {
+  margin-bottom: 1rem;
+}
+.features__title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/**************/
+/* Section Productivity */
+/*************/
+.section-productivity {
+  padding: 9.6rem 0;
+}
+.heading__primary--second {
+  font-size: 2.375rem;
+  font-weight: 700;
+
+  /* margin-bottom: 1rem; */
+  color: hsl(0, 0%, 100%);
+  line-height: 4.8rem;
+}
+.text-box {
+  width: 435px;
+}
+.description-P1 {
+  margin-bottom: 1rem;
+}

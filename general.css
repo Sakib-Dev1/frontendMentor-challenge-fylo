@@ -22,6 +22,7 @@ body {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+  text-align: center;
   /* padding: 0 3.2rem; */
 }
 .grid {
@@ -30,7 +31,7 @@ body {
   row-gap: 9.6rem;
 }
 .grid__center--v {
-  justify-content: center;
+  justify-items: center;
   align-items: center;
 }
 .grid-template-cols-2 {
